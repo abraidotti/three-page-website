@@ -1,12 +1,15 @@
-/* testing */
 * {
+  /*
   border: 1px solid blue;
+  background-color: rgba(0, 0, 0, 0.1);
+  */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
   box-sizing: border-box;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.1);
   color: white;
+  text-decoration: none;
 }
-/* end testing */
 
 .box {
   text-align: center;
@@ -22,12 +25,13 @@
   background: black;
   color: white;
   clear: left;
-  /* clear: left is important for large screens,
-  at which point there are two columns of text. */
+  /*
+  clear: left is important for large screens,
+  at which point there are two columns of text.
+  */
 }
 
 p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8vw;
   font-weight: 400;
   padding: 10% 10%;
@@ -37,8 +41,8 @@ p {
 .nav-bar {
   height: 20vw;
   width: 100%;
-  background-color: grey;
-  color: white;
+  background-color: black;
+  color: black;
   text-align: center;
 }
 
@@ -52,20 +56,19 @@ p {
 .btn {
   float: left;
   margin: auto;
-  font-size: 3vw;
+  font-size: 4vw;
   padding: 10vw 10vw;
   transition: 0.3s background-color ease-in-out;
   text-decoration: none;
 }
 
 .btn > a {
-  background-color: grey;
   color: white;
 }
 
 .btn:hover {
   color: black;
-  background-color: grey;
+  background-color: white;
   transition: 0.3s background-color ease-in-out;
 }
 
@@ -109,7 +112,6 @@ p {
   }
 
   p {
-    /*font-size: 15vw;*/
     font-weight: 900;
   }
 }
