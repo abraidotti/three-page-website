@@ -21,11 +21,14 @@
 .box:nth-child(odd) {
   background: black;
   color: white;
+  clear: left;
+  /* clear: left is important for large screens,
+  at which point there are two columns of text. */
 }
 
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: 400;
   padding: 10% 10%;
   text-align: center;
@@ -106,7 +109,7 @@ p {
   }
 
   p {
-    font-size: 15vw;
+    /*font-size: 15vw;*/
     font-weight: 900;
   }
 }
